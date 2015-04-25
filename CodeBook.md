@@ -1,4 +1,4 @@
-# Cuurse Project CodeBook
+# Course Project CodeBook
 
 The final dataset that is created with the run_analysis.R script contains 180 observations and 88 variables.
 
