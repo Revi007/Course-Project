@@ -29,3 +29,12 @@ Step 5 - From the data set in step 4, creates a second, independent tidy data se
 		with the average of each variable for each activity and each subject.
 
 Step 6 - Extracting the data to a text file
+
+## Representing the results dataset as tidy data in R
+The url provided in the course project for the tidy dataset opens a URL with the data that does not look very nice.
+For better representation of the results and easier review please download the file to your local directory and open it with R. 
+You can use the following code  for that -
+fileurl<-"https://s3.amazonaws.com/coursera-uploads/user-64479309e2b67f58d3fb8070/973500/asst-3/45e1fce0eb6511e4b48c5b2b0c70d3a1.txt"
+download.file(fileurl, destfile="Project course Results.txt")
+data<- read.table("Project course Results.txt", header=TRUE)
+View(data)
